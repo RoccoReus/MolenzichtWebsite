@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="nl">
 	<head>
 		<title>Contactpagina</title>
 		<meta charset="utf-8" />
@@ -13,10 +13,18 @@
 				<header id="header">
 					<img class="imagess logo" src="imgs/Logo%20Molenzicht.png" alt="">
 					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
+						<ul class="langs">
+							<li><a href="index.html" class="lang" key="homeknop">Homepagina</a></li>
 							<li><a href="lodge.html">Lodge</a></li>
 							<li><a href="studio.html">Studio</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down lang" key="talenUitschuifKnop">Talen</a>
+								<ul>
+									<li><a href="contact.html" id="nl" class="translate">Nederlands</a></li>
+									<li><a href="contact.html" id="en" class="translate">English</a></li>
+									<li><a href="contact.html" id="de" class="translate">Duits</a></li>
+								</ul>
+							</li>
 						</ul>
 					</nav>
 				</header>
@@ -24,15 +32,30 @@
 			<!-- Main -->
 				<section id="main" class="container medium">
 					<header>
-						<h2>Contact Us</h2>
-						<p>Tell us what you think about our little operation.</p>
+						<h2 class="lang" key="contactTitel">Contacteer Ons</h2>
+						<p class="lang" key="contactDescription">Contacteer ons met het formulier hieronder</p>
 					</header>
 					<!-- Contact formulier -->
 					<div class="box">
-						<form action="https://formsubmit.co/roccoreus007@gmail.com" method="post">
+
+
+
+						<form action="https://formsubmit.co/roccoreus007@gmail.com" method="POST">
+							<!-- Honeypot -->
+							<input type="text" name="_honey" style="display: none;">
+
+							<!-- Disable Captcha -->
+							<input type="hidden" name="_captcha" value="false">
+
+							<!-- Succes Pagina -->
+							<input type="hidden" name="_next" value="https://roccoreus.github.io/WebsiteMolenzicht/succes.html">
+
+
+							<!-- Formulier -->
+
 							<div class="row gtr-50 gtr-uniform">
 								<div class="col-6 col-12-mobilep">
-									<input type="text" name="name" id="name" value="" placeholder="Name" required/>
+									<input type="text" name="naam&nbsp;en&nbsp;achternaam" id="contactNaam" value="" placeholder="Naam en Achternaam" required/>
 								</div>
 								<div class="col-6 col-12-mobilep">
 									<input type="email" name="email" id="email" value="" placeholder="Email" required />
@@ -46,15 +69,15 @@
 									<label for="studio">Studio</label>
 								</div>
 								<div class="col-12">
-									<input type="text" name="subject" id="subject" value="" placeholder="Subject" required/>
+									<input type="text" name="onderwerp" id="onderwerp" value="" placeholder="Onderwerp" required/>
 								</div>
 								<div class="col-12">
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+									<textarea name="bericht" id="bericht" placeholder="Type u bericht hier!" rows="6"></textarea>
 								</div>
 								<div class="col-12">
 									<ul class="actions special">
-										<li><input type="submit" value="Send Message" /></li>
-										<li><input type="reset" value="Reset" class="alt">
+										<li><input type="submit" class="lang" key="contactButton1" value="Stuur bericht" /></li>
+										<li><input type="reset" key="contactButton2" value="Reset" class="alt lang">
 									</ul>
 								</div>
 							</div>
@@ -87,6 +110,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/language.js"></script>
 
 	</body>
 </html>

@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="nl">
 	<head>
 		<title>Homepagine</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
 	</head>
 	<body class="landing is-preload">
 		<div id="page-wrapper">
@@ -13,9 +14,17 @@
 				<header id="header" class="alt">
 					<img class="imagess logo" src="imgs/Logo%20Molenzicht.png" alt="">
 					<nav id="nav">
-						<ul>
+						<ul class="langs">
 							<li><a href="lodge.html">Lodge</a></li>
 							<li><a href="studio.html">Studio</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down lang" key="talenUitschuifKnop">Talen</a>
+								<ul>
+									<li><a href="index.html" id="nl" class="translate">Nederlands</a></li>
+									<li><a href="index.html" id="en" class="translate">English</a></li>
+									<li><a href="index.html" id="de" class="translate">Duits</a></li>
+								</ul>
+							</li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
@@ -25,16 +34,17 @@
 				<section id="banner">
 					<p><br><br><br><br></p>
 					<ul class="actions special">
-						<li><a href="#main" class="button scrolly">Lees meer</a></li>
+						<li><a href="#main" key="button1" class="button scrolly lang">Lees meer</a></li>
 					</ul>
 				</section>
 
 			<!-- Main -->
 				<section id="main" class="container">
-
 					<section class="box special">
 						<header class="special">
-							<img class="images logo" src="imgs/Logo%20Molenzicht%20incl.%20tekst.png" alt="">
+							<span class="image fit">
+								<img src="imgs/Logo%20Molenzicht%20incl.%20tekst.png" alt="">
+							</span>
 						</header>
 					</section>
 
@@ -44,7 +54,7 @@
 								<span class="image fit"><img src="imgs/lodge/lodge7.JPG" alt="" /></span>
 								<h3>Lodge Molenzicht</h3>
 								<ul class="actions special">
-									<li><a href="lodge.html" class="button">Meer</a></li>
+									<li><a href="lodge.html" key="button2" class="button lang">Lees meer</a></li>
 								</ul>
 							</section>
 						</div>
@@ -54,7 +64,7 @@
 								<span class="image fit"><img src="imgs/studio/studio5.jpg" alt="" /></span>
 								<h3>Studio Molenzicht</h3>
 								<ul class="actions special">
-									<li><a href="studio.html" class="button">Meer</a></li>
+									<li><a href="studio.html" key="button3" class="button lang">Lees meer</a></li>
 								</ul>
 							</section>
 						</div>
@@ -67,8 +77,8 @@
 <!--							<div class="elfsight-app-d457c33b-4089-469c-95bb-12907d8047b8"></div>-->
 						</section>
 						<section class="col-6 col-12-narrower">
-							<h2>Over ons </h2>
-							<p>Sinds ruim drie jaar woon ik met mijn man Robert en twee zoons Rocco & Xander in Koedijk. <br>
+							<h2 class="lang" key="aboutTitel">Over ons </h2>
+							<p class="lang" key="aboutDescription">Sinds ruim drie jaar woon ik met mijn man Robert en twee zoons Rocco & Xander in Koedijk. <br>
 								Mijn man en ik werken beiden bij een gemeente. <br>
 								Sinds juli 2019 verhuur ik de studio boven onze garage en begin 2021 is daar de Lodge bij gekomen.<br>
 								Ik vind het ontzettend leuk om mensen een prettig verblijf te bieden en sta altijd open voor vragen en voor suggesties of tips. </p>
@@ -78,10 +88,10 @@
 
 					<section class="box special">
 						<header class="special">
-							<h3>Wilt nu rechstreeks boeken dan kan dat ook.</h3>
+							<h3 class="lang" key="directbooking">Wilt nu rechstreeks boeken dan kan dat ook.</h3>
 							<br><br>
 							<ul class="actions special">
-								<li><a href="contact.html" class="button">Doe dat hier!</a></li>
+								<li><a href="contact.html" key="directbookingbutton" class="button lang">Doe dat hier!</a></li>
 							</ul>
 						</header>
 					</section>
@@ -102,7 +112,6 @@
 				</footer>
 
 		</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
@@ -112,6 +121,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/language.js"></script>
 
 	</body>
 </html>
