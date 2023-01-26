@@ -3584,7 +3584,10 @@
 				padding-top: 0;
 			}
 
-			#header {
+			#header #nav {
+				display: none;
+			}
+			#header .imagess.logo {
 				display: none;
 			}
 
