@@ -143,8 +143,11 @@ function translateLang(lang)
 {
     $('.lang').each(function(index, item) {
         $(this).text(arrLang[lang][$(this).attr('key')]);
+        $(this).attr('placeholder', arrLang[lang][$(this).attr('key')]);
+        $(this).attr('value', arrLang[lang][$(this).attr('key')]);
     });
 }
+
 
 $(function() {
     //first check for stored language in localStorage i.e. fetch data from localStorage
