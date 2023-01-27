@@ -95,7 +95,7 @@ var arrLang = {
     },
     'nl': {
         'homeknop': 'Homepagina',
-        'contactknop': 'contact',
+        'contactknop': 'Contact',
         'talenUitschuifKnop': 'Talen',
         'button1': 'Lees meer',
         'button2': 'Lees meer',
