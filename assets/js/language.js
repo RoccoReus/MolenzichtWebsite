@@ -151,23 +151,18 @@ function translateLang(lang)
     });
 }
 
-
-$(function() {
+$(function () {
     //first check for stored language in localStorage i.e. fetch data from localStorage
-    let stored_lang = localStorage.getItem("stored_lang");
+    let stored_lang = window.localStorage.getItem("stored_lang");
     //if any then translate page accordingly
-    if(stored_lang != null)
+    if(stored_lang !== "undefined")
     {
-        lang = stored_lang;
-        translateLang(lang);
+        translateLang(stored_lang);
     }
-
-
-    $('.translate').click(function() {
-        var lang = $(this).attr('id');
-        //on click store language to localStorage
-        localStorage.setItem("stored_lang",lang);
-        translateLang(lang);
-    });
-
 });
+
+function translater(cult) {
+    //on click store language to localStorage
+    window.localStorage.setItem("stored_lang",cult);
+    translateLang(cult);
+}

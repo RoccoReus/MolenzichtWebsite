@@ -15,15 +15,22 @@
 			var	$this = $(this),
 				indent = Math.max(0, $this.parents('li').length - 1),
 				href = $this.attr('href'),
-				target = $this.attr('target');
+				target = $this.attr('target'),
+				clas = $this.attr('class'),
+				id = $this.attr('id');
+
+			const meth = "onclick=\"translater(\'" + id + "\')\"";
 
 			b.push(
 				'<a ' +
 					'class="link depth-' + indent + '"' +
 					( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
 					( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
+					( (typeof clas !== 'undefined' && clas != '') ? ' class="' + clas + '"' : '') +
+					( (typeof id !== 'undefined' && id != '') ? ' id="' + id + '"' : '') +
+					( (typeof id !== 'undefined' && id != '') ? '' +  meth + '' : '') +
+
 				'>' +
-					'<span class="indent-' + indent + '"></span>' +
 					$this.text() +
 				'</a>'
 			);

@@ -29,7 +29,7 @@
 
 	// NavPanel.
 
-		// Button.
+		// Toggle.
 			$(
 				'<div id="navButton">' +
 					'<a href="#navPanel" class="toggle"></a>' +
