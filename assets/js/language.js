@@ -1,6 +1,7 @@
 var arrLang = {
     'en': {
         'homeknop': 'Homepage',
+        'contactknop': 'Contact',
         'talenUitschuifKnop': 'Language',
         'button1': 'Read more',
         'button2': 'Read more',
@@ -47,6 +48,7 @@ var arrLang = {
     },
     'de': {
         'homeknop': 'Startseite',
+        'contactknop': 'Kontakt',
         'talenUitschuifKnop': 'Sprachen',
         'button1': 'Weiterlesen',
         'button2': 'Weiterlesen',
@@ -93,6 +95,7 @@ var arrLang = {
     },
     'nl': {
         'homeknop': 'Homepagina',
+        'contactknop': 'contact',
         'talenUitschuifKnop': 'Talen',
         'button1': 'Lees meer',
         'button2': 'Lees meer',
