@@ -8,7 +8,7 @@ var arrLang = {
         'button3': 'Read more',
         'aboutTitel': 'About us',
         'aboutDescription': "Since 2019 I live with my husband Robert and 2 sons Rocco & Xander in Koedijk. \n Since Juli 2019 rent I the Studio above our garage and since the beginning of 2021 the Lodge aswell.\n I really enjoy offering people a pleasant stay and I'm always open to questions and suggestions or tips.",
-        'directbooking': 'If you want to book directly, you can do that too.',
+        'directbooking': 'If you want to book directly with us, please contact us.',
         'directbookingbutton': 'Book here!',
 
         'lodgeButton1': 'Read More',
@@ -33,13 +33,8 @@ var arrLang = {
         'studioLetOPDescription': 'If desired, our outdoor Barrel Sauna can be booked for 15 euros per 1-1.5 hours. Towels and bathrobes are included. \n\n In addition, we have two bicycles with 8 gears that you can rent. The costs for this are 10 euros per bicycle per day. If you have your own bicycles, they can be parked under the carport out of sight or, if desired, in our garage. \n\n In addition, you can rent 2 canoes at 15 euros per canoe at a time.',
         'studioButton2': 'Book now',
 
-        'contactTitel': 'Contact Us',
-        'contactDescription': 'Contact us with the form below',
-        'contactNaam': 'Name',
-        'contactOnderwerp': 'Subject',
-        'contactBericht': 'Enter your message',
-        'contactButton1': 'Send Message',
-        'ContactButton2': 'Reset',
+        'contactTitel': 'Contact',
+        'PhoneNumber': 'Phone: +31612882281',
 
         'succesTitel': 'Successful send!',
         'succesText1': 'You have successfully sent us a message.',
@@ -55,7 +50,7 @@ var arrLang = {
         'button3': 'Weiterlesen',
         'aboutTitel': 'über uns',
         'aboutDescription': 'Seit 2019 wohne ich mit meinem Mann Robert und meinen beiden Söhnen Rocco und Xander in Koedijk.\n Seit Juli 2019 vermiete ich das Studio über unserer Garage und Anfang 2021 kam die Lodge dazu.\n Ich genieße es sehr, Menschen einen angenehmen Aufenthalt zu bieten und bin für Fragen und Anregungen oder Tipps immer offen.',
-        'directbooking': 'Wenn Sie direkt buchen möchten, können Sie das auch tun.',
+        'directbooking': 'Wenn Sie direkt bei uns buchen möchten, kontaktieren Sie uns bitte.',
         'directbookingbutton': 'Mach das hier!',
 
         'lodgeButton1': 'Weiterlesen',
@@ -81,12 +76,7 @@ var arrLang = {
         'studioButton2': 'Bücher',
 
         'contactTitel': 'Kontakt',
-        'contactDescription': 'Kontaktformulierer',
-        'contactNaam': 'Name',
-        'contactOnderwerp': 'Gegenstand',
-        'contactBericht': 'Schreiben Sie ihre Nachricht hier',
-        'contactButton1': 'Nachricht senden',
-        'ContactButton2': 'Zurücksetzen',
+        'PhoneNumber': 'Telefon: +31612882281',
 
         'succesTitel': 'Erfolgreich gesendet!',
         'succesText1': 'Sie haben uns erfolgreich eine Nachricht gesendet.',
@@ -102,7 +92,7 @@ var arrLang = {
         'button3': 'Lees meer',
         'aboutTitel': 'Over Ons',
         'aboutDescription': 'Sinds 2019 woon ik met mijn man Robert en twee zoons Rocco & Xander in Koedijk.\n Sinds juli 2019 verhuur ik de studio boven onze garage en begin 2021 is daar de Lodge bij gekomen.\n Ik vind het ontzettend leuk om mensen een prettig verblijf te bieden en sta altijd open voor vragen en voor suggesties of tips.',
-        'directbooking': 'Wilt u nu rechstreeks boeken dan kan dat ook.',
+        'directbooking': 'Wilt u rechtstreeks bij ons boeken neem dan contact met ons op.',
         'directbookingbutton': 'Doe dat hier!',
 
         'lodgeButton1': 'Lees meer',
@@ -128,12 +118,7 @@ var arrLang = {
         'studioButton2': 'Boeken',
 
         'contactTitel': 'Contact',
-        'contactDescription': 'Contact formulier.',
-        'contactNaam': 'Naam',
-        'contactOnderwerp': 'Onderwerp',
-        'contactBericht': 'Type hier u bericht',
-        'contactButton1': 'Stuur bericht',
-        'ContactButton2': 'Reset',
+        'PhoneNumber': 'Telefon: +31612882281',
 
         'succesTitel': 'Succesvol verstuurd!',
         'succesText1': 'U heeft succesvol een bericht naar ons verstuurd.',
